@@ -1,0 +1,127 @@
+@import url('https://fonts.googleapis.com/css2?family=Be+Vietnam+Pro&family=Roboto&display=swap');
+/* global styles */
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family:'Be Vietnam Pro', sans-serif;
+    font-size: 16px;
+}
+a{
+    text-decoration: none;
+    color: #242E52;
+    cursor: pointer;
+}
+a:hover{
+    color: rgba(36, 46, 82, 0.6);
+}
+
+.flex{
+    display: flex;
+    
+}
+/* buttons styles */
+.primary-button{
+    width: 134px;
+    height: 44px;
+    background: #8B48BF;
+    border-color: #8B48BF;
+    border-radius: 50px;
+    color: white;
+    cursor: pointer;
+
+}
+.shadow-btn{
+    box-shadow: 0px 4px 7px rgba(0, 0, 0, 0.25);
+}
+.primary-button:hover{
+    color: #8B48BF;
+    background-color: white;
+}
+/* header styles */
+
+header {
+    height: 174px;
+    align-items: center;
+    justify-content: space-around;
+}
+.list-box li{
+    margin-right: 20px;
+       
+}
+/* front page styles */
+.front-page{
+    height: 643px;
+    justify-content: center;
+    align-items: center;
+}
+.front-page img{
+    width: 540px;
+    height: 461px;
+}
+.front-content{
+    width: 540px;
+    height: 461px;
+    flex-direction: column;
+    align-items: flex-end;
+    justify-content: space-around;
+    padding: 30px 0px 30px 50px;
+    text-align: right;
+}
+.front-content h2{
+    font-size: 50px;
+    font-weight: 700;
+    color: #232C50;
+    
+    
+    }
+/* differences between pros styles */
+.difference-container{
+    height: 168px;
+    align-items: center;
+    justify-content: space-evenly;
+    background: #8B48BF;
+    color: white; 
+    padding: 0px 100px; 
+
+}
+.content-container{
+    width: 450px;
+    height: 88px;
+}
+.content-container h2{
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 114.6%;
+}
+/* information cards section */
+.info-cards-container{
+    flex-wrap: wrap;
+    justify-content: center;
+    background: #FAFAFA;
+    height: 428px;
+ 
+}
+.info-card{
+    height: 162px;
+    width: 530px;
+    height: 162px;
+    margin: 20px 50px;
+}
+.info-card h3{
+    
+}
+.info-card h3 span{
+    background-color:#8B48BF;
+    width: 100px;
+    border-radius: 30px;
+    padding: 10px 25px;
+    margin-right: 23px;
+    color: #FAFAFA;
+
+}
+.info-card p{
+    padding: 20px 0px 0px 92px;
+    color: #B3B2B7;
+}
+    
