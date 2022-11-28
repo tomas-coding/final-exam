@@ -20,6 +20,12 @@ a:hover{
     display: flex;
     
 }
+input{
+    width: 201px;
+    height: 44px;
+    background: #FFFFFF;
+    border-radius: 50px;
+}
 /* buttons styles */
 .primary-button{
     width: 134px;
@@ -31,12 +37,35 @@ a:hover{
     cursor: pointer;
 
 }
+.secondary-button{
+    width: 134px;
+    height: 44px;
+    background: white;
+    border-color: #8B48BF;
+    border-radius: 50px;
+    color: #8B48BF;
+    cursor: pointer;
+
+}
 .shadow-btn{
     box-shadow: 0px 4px 7px rgba(0, 0, 0, 0.25);
 }
 .primary-button:hover{
     color: #8B48BF;
     background-color: white;
+}
+.submit-button{
+    width: 63px;
+    height: 42px;
+    background: #8B48BF;
+    border-radius: 50px;
+    color: white;
+    cursor: pointer;
+}
+.submit-button:hover{
+    color: #8B48BF;
+    background-color: white;
+    border-color: #8B48BF;
 }
 /* header styles */
 
@@ -99,7 +128,7 @@ header {
     flex-wrap: wrap;
     justify-content: center;
     background: #FAFAFA;
-    height: 428px;
+    
  
 }
 .info-card{
@@ -127,3 +156,89 @@ header {
     height: 104px;
 }
     
+/* character cards section */
+.cards-section-container{
+    flex-direction: column;
+    align-items: center;
+    padding: 100px 30px;
+}
+.character-cards-container{
+    padding: 100px 0px;
+}
+.character-card{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background: #FAFAFA;
+    height: 220px;
+    width: 445px;
+    justify-content: space-around; 
+    padding: 0 15px 15px 15px;
+
+}
+.character-card img{
+    position: relative;
+    bottom: 35px;
+}
+.cards-section-container h2{
+    font-weight: 700;
+    font-size: 39px;
+    color: #242E53;
+
+}
+.character-card h3{
+    padding-bottom: 40px;
+    color: #3F4868;
+    font-weight: 700;
+}
+.character-card p{
+    text-align: center;
+    color: #B9B9C1;
+}
+/* best teams section */
+.best-teams{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background: #8B48BF;
+    padding: 60px 0px;
+}
+.best-teams h2{
+    color: white;
+    font-size: 40px;
+    font-weight: 700;
+    width: 500px;
+}
+/* footer styles */
+.footer-container{
+    background: #1E1E26;
+    justify-content: space-evenly;
+    padding: 60px 0px;
+}
+.social-networks{
+    flex-direction: column;
+    justify-content: space-between;
+}
+.social-networks img{
+    max-width: 107px;
+}
+.social-links li{
+    padding-right: 15px;
+    padding-top: 50px;
+    
+}
+.links-footer li{
+    padding: 10px 0px;
+}
+.links-footer li a{
+    color: white;
+}
+.copyrights-forms-container{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.copyrights-forms-container p{
+    color: #8C8C94;
+
+}
