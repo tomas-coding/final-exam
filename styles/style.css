@@ -21,7 +21,7 @@ a:hover{
     
 }
 input{
-    width: 201px;
+    width: 250px;
     height: 44px;
     background: #FFFFFF;
     border-radius: 50px;
@@ -51,8 +51,7 @@ input{
     box-shadow: 0px 4px 7px rgba(0, 0, 0, 0.25);
 }
 .primary-button:hover{
-    color: #8B48BF;
-    background-color: white;
+    background: rgba(139, 72, 191, 0.7);;
 }
 .submit-button{
     width: 63px;
@@ -80,7 +79,7 @@ header {
 }
 /* front page styles */
 .front-page{
-    height: 643px;
+    padding: 10vh 0px;
     justify-content: center;
     align-items: center;
 }
@@ -106,12 +105,11 @@ header {
     }
 /* differences between pros styles */
 .difference-container{
-    height: 168px;
     align-items: center;
     justify-content: space-evenly;
     background: #8B48BF;
     color: white; 
-    padding: 0px 100px; 
+    padding: 6vh 100px; 
 
 }
 .content-container{
@@ -142,7 +140,7 @@ header {
 }
 .info-card h3 span{
     background-color:#8B48BF;
-    width: 100px;
+    width: 70px;
     border-radius: 30px;
     padding: 10px 25px;
     margin-right: 23px;
@@ -241,4 +239,117 @@ header {
 .copyrights-forms-container p{
     color: #8C8C94;
 
+}
+.nav-links{
+    display: flex;
+}
+.nav-links ul{
+    padding: 0px 50px;
+}
+/* responsive for mobile */
+.responsive-header img{
+    display: none;
+
+}
+@media (max-width: 700px) {
+    nav{
+        display: none;
+    }
+    .responsive-header button{
+        display: none;
+    }
+    .responsive-header img{
+        display:block;
+        width: 46px;
+        height: 42px;
+        
+    
+    }
+    .list-box{
+        display: none;
+    }
+    .front-page{
+        flex-direction: column;
+    }
+    .front-page img {
+        width: 80vw;
+        height: 35vh;
+    }
+    .front-content{
+        width: 83vw;
+        height: 57vh;
+        padding: 0px;
+    }
+    .difference-container{
+        flex-direction: column;
+        background: #3CDDF3;
+        padding: 0px;
+        height: 306px;
+
+    }
+    .difference-container p {
+        padding: 0px 15px 0px 10px;
+        
+    }
+    .difference-container h2{
+        padding: 0px 30px 0px 10px;
+    }
+    .info-cards-container{
+        background-color: #FFFFFF;
+    }
+    .info-card{
+        padding-left: 10vw;
+    }
+    .info-card p{
+        padding: 20px 0px 0px 0px;
+        width: 80vw;
+    }
+    .info-card h3 {
+    display: flex;
+    height: 43px;
+    width: 100vw;
+    background: rgba(139, 72, 191, 0.3);
+    align-items: center;
+    border-radius: 50px 0px 0px 50px;
+    }
+    .info-card span{
+        display: flex;
+        justify-content: center;
+        width: 70px;
+    }
+    .best-teams{
+        background: #3CDDF3;
+        flex-direction: column;
+        padding-bottom: 50px;
+
+    }
+    .secondary-button{
+        background: #232C50;
+        color: white;
+        border-color: #232C50;
+
+    }
+    .best-teams h2 {
+        width: 60vw;
+        text-align: center;
+    }
+    .footer-container{
+        display: flex;
+        flex-direction: column-reverse;
+        align-items: center;
+    }
+    .social-networks{
+        flex-direction: column-reverse;
+        align-items: center;
+    }
+    .social-networks img{
+        padding-top: 50px;
+    }
+    .social-links li{
+        padding:0px 30px ;
+
+    }
+    .copyrights-forms-container{
+        padding-bottom: 50px;
+    }
 }
