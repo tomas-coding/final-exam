@@ -349,7 +349,12 @@ header {
         padding:0px 30px ;
 
     }
+    .copyrights-forms-container p{
+        position: relative;
+        top: 400px;
+    }
     .copyrights-forms-container{
         padding-bottom: 50px;
     }
+    
 }
