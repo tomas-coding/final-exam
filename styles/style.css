@@ -332,6 +332,7 @@ header {
     .best-teams h2 {
         width: 60vw;
         text-align: center;
+        padding-bottom: 50px;
     }
     .footer-container{
         display: flex;
